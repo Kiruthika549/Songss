@@ -1,0 +1,40 @@
+<style>
+
+#header{
+ background-color:rgb(0,180,214);
+height:70px;
+text-align:center;
+font-size:30px;
+color:white;
+font-family:helvetica;
+}
+
+.media{
+height:300px;
+margin:10px;
+}
+
+.button{
+background-color:rgb(0,180,214);
+border:solid 1px white;
+width:150px;
+height:40px;
+color:white;
+border-radius:20px;
+}
+
+</style>
+<div id="header"> Downloads</div>
+
+<img src="image.jpg" class="media"/>
+<video controls class="media">
+<source src="video.3gpp"/>
+</video>
+<audio controls class="media">
+<source src="song.mp3"/>
+</audio>
+
+<hr/>
+<a href="image.jpg" download="new title"><button class="button"> Download image</button></a>
+<a href="video.3gpp" download><button class="button"> Download video</button></a>
+<a href="song.mp3" download><button class="button"> Download audio</button></a>
